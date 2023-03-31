@@ -55,11 +55,33 @@ void zadanie3() {
 
 }
 
+void zadanie4() {
+    int tab[12];
+    int a;
+    int wynik;
+    for(int i = 0; i < 12; i++) {
+        tab[i] = rand() % 11;
+    }
+    cout << "Wybierz cyfra od 0 do 10: ";
+    cin >> a;
+    for(int i = 0; i < 12; i++) {
+        cout << i << ". " << tab[i] << endl;
+        if(tab[i] == a) {
+           wynik = wynik + 1;
+
+        }
+    }
+    cout << "Razem cyfra " << a << " pojawila sie " << wynik << " razy ";
+
+
+}
+
 int main()
 {
     //zadanie1();
     //zadanie2();
     //zadanie3();
-
+    //zadanie4();
+    
     return 0;
 }
