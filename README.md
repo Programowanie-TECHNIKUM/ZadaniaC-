@@ -1,2 +1,2 @@
-# ZadaniaC-
+# ZadaniaCPP
 Zadania z C++
