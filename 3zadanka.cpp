@@ -64,6 +64,7 @@ void zadanie4() {
     }
     cout << "Wybierz cyfra od 0 do 10: ";
     cin >> a;
+
     for(int i = 0; i < 12; i++) {
         cout << i << ". " << tab[i] << endl;
         if(tab[i] == a) {
